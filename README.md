@@ -15,11 +15,20 @@ This project was designed to meet the exact requirements of the assignment:
 - **Plans / Packages screen**
 - **Settings + optional reminder notification**
 - **MVVM + Mock data + Compose UI**
-- **Unit tests for ViewModels** ✅
+- **Unit tests for ViewModels**
+- **Normal Mode and Dark Mode Implementation**
 
 ---
 
 ## App Features / Screens
+
+<img width="1080" height="2400" alt="Screenshot_20251029_024252" src="https://github.com/user-attachments/assets/b1e56688-19ae-42cc-9648-d8860799d88f" />
+<img width="1080" height="2400" alt="Screenshot_20251029_024300" src="https://github.com/user-attachments/assets/2e701dd0-318b-4489-8e76-1a9bfcc2550d" />
+<img width="1080" height="2400" alt="Screenshot_20251029_024308" src="https://github.com/user-attachments/assets/7ffebc9d-4ca3-46ba-8f3c-648ad867dedf" />
+<img width="1080" height="2400" alt="Screenshot_20251029_024201" src="https://github.com/user-attachments/assets/1a962aa5-fef5-4ee4-ba2f-f8afd5446583" />
+<img width="1080" height="2400" alt="Screenshot_20251029_024219" src="https://github.com/user-attachments/assets/7787e700-5cf3-4cc2-ace9-44f94843dfac" />
+<img width="1080" height="2400" alt="Screenshot_20251029_024229" src="https://github.com/user-attachments/assets/3bda7e27-d878-4848-8746-173286af473f" />
+
 
 ### 1. Dashboard Screen (`DashboardScreen`)
 - Top header row:
