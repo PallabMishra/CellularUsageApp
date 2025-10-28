@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Night variant.
+         We can still inherit from the same base and override status/nav styling for dark. -->
+    <style name="Theme.CellularApp" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Keep nav bar dark in night mode -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Force dark icons OFF in dark mode -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+</resources>

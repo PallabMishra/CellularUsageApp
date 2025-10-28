@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base app theme for normal (light) mode.
+         We inherit from a built-in platform Material Light theme with no action bar.
+         Compose will still provide dynamic colors in runtime via CellularTheme. -->
+    <style name="Theme.CellularApp" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <!-- Transparent status bar for modern edge-to-edge look -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- Let our content draw behind the status bar -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Dark nav bar background so the bottom bar looks clean -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Don’t force light icons; Compose handles content colors anyway -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Allow system darkening on Views if needed (Compose does its own theming) -->
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+</resources>
